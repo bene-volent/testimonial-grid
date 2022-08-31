@@ -8,6 +8,7 @@
 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 :root{
 
@@ -21,11 +22,24 @@
     --clr-light-gray-blue: hsl(210, 46%, 95%);
 }
 body{
-    background-color: var(--clr-light-gray-blue);
+    background:linear-gradient(90deg,var(--clr-primary-white),var(--clr-light-gray-blue));
+   
     font-size: 13px;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
+/******************* Heading *******************/
+
+.heading{
+    margin: 1.2rem 0 -2rem; 
+    color: var(--clr-primary-white);
+   font-family: "Montserrat", sans-serif;
+   font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--clr-primary-gray-blue);
+    /* text-decoration: underline; */
+}
 
 /******************* Setup *******************/
 
@@ -97,14 +111,14 @@ body{
 }
 @media (max-width:62em) {
     .testimonial{
-    box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(120, 1%, 35%);
+    box-shadow: 0 3.75rem 1rem -3rem hsl(120, 1%, 35%);
 
     }
 
 }
 @media (min-width:62em) {
     .container{
-        width: min(70em,90%);
+        width: min(80em,90%);
         grid-template-columns: repeat(4,1fr);
     }
     #danial-testimony{
