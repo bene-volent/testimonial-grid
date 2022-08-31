@@ -22,9 +22,10 @@
     --clr-light-gray-blue: hsl(210, 46%, 95%);
 }
 body{
-    background:linear-gradient(90deg,var(--clr-primary-white),var(--clr-light-gray),var(--clr-light-gray-blue));
+    background:linear-gradient(90deg,var(--clr-primary-white),var(--clr-light-gray-blue));
    
     font-size: 13px;
+    height: 100vh;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
@@ -103,6 +104,10 @@ body{
 }
 
 /******************* Final Display Classes *******************/
+
+main{
+    height:100%;
+}
 
 .container{
     display: grid;
