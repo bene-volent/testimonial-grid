@@ -187,5 +187,5 @@ body{
 /******************* Front End Footer *******************/
 
 
-.attribution { font-size: 11px; text-align: center; color:black}
+.attribution { font-size: 11px; text-align: center; color:black;margin-bottom:20px;}
 .attribution a { color: hsl(228, 45%, 44%); }
