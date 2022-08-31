@@ -1,3 +1,14 @@
+/*
+    Hello there. I am complete newbie and learnt a few things
+    and I am testing my knowledge. Please give some constructive critizism
+    and keep in mind that I am new to this.
+    Some previous community member expected my code to be perfect which I can't do at the moment.
+
+    Thank You.
+
+*/
+
+
 :root{
 
     --clr-primary-violet: hsl(263, 55%, 52%);  
@@ -82,7 +93,7 @@ body{
 .container{
     display: grid;
     gap: 1.75rem; 
-    margin: 4.5rem 2rem;  
+    margin: 4.5rem 2rem 2rem;  
 }
 @media (max-width:62em) {
     .testimonial{
@@ -158,3 +169,9 @@ body{
 .brd-clr-pr-violet{
     border-color: #a775f1;
 }
+
+/******************* Front End Footer *******************/
+
+
+.attribution { font-size: 11px; text-align: center; color:black}
+.attribution a { color: hsl(228, 45%, 44%); }
